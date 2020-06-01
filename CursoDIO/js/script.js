@@ -19,6 +19,9 @@ function criarCobrinha() {
     context.fillRect(snake[i].x, snake[i].y, box, box);
   }
 }
+
+document, addEventListener('keydown', update);
+
 function iniciarJogo() {
   criarBG();
   criarCobrinha();
